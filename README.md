@@ -49,7 +49,7 @@ Example entities recognized:
 For any questions or issues regarding the project, please open an issue on the repository, and I will be happy to assist. You can also check the TensorFlow and Keras documentation for more information on using deep learning models.
 
 ## Maintainers and Contributors
-This project is maintained by Esha Govardhan, Pragati Gadkar, Tisha Nawani, Amrapali Chandanshiv. Contributions are welcome! If you would like to contribute, please fork the repository, make your changes, and submit a pull request.
+This project is maintained by **Esha Govardhan, Pragati Gadkar, Tisha Nawani, Amrapali Chandanshiv**. Contributions are welcome! If you would like to contribute, please fork the repository, make your changes, and submit a pull request.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
