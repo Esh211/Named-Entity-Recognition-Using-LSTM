@@ -14,32 +14,36 @@ NER is a fundamental task in Natural Language Processing (NLP) with applications
 - **Matplotlib/Seaborn**: Libraries for data visualization.
 
 ## Key Features
-Bidirectional LSTM Model: Utilizes a bidirectional LSTM to capture the context of words in both directions, improving the accuracy of entity recognition.
-IOB-2 Tagging Scheme: Handles entity tagging using the IOB-2 format for fine-grained entity recognition.
-Customizable: Easy to adapt and expand for recognizing new types of entities.
-Accuracy: Achieves high accuracy in named entity recognition on the dataset.
-Visualization: Includes loss and accuracy graphs to monitor model performance during training.
+- **Bidirectional LSTM Model**: Utilizes a bidirectional LSTM to capture the context of words in both directions, improving the accuracy of entity recognition.
+- **IOB-2 Tagging Scheme**: Handles entity tagging using the IOB-2 format for fine-grained entity recognition.
+- **Customizable**: Easy to adapt and expand for recognizing new types of entities.
+- **Accuracy**: Achieves high accuracy in named entity recognition on the dataset.
+- **Visualization**: Includes loss and accuracy graphs to monitor model performance during training.
 
 ## Getting Started
-1. Clone the Repository
-git clone https://github.com/your_username/Named-Entity-Recognition-LSTM.git
-cd Named-Entity-Recognition-LSTM
-2. Install Required Libraries
-Make sure you have Python installed, then install the necessary packages:
-pip install -r requirements.txt
-3. Run the Jupyter Notebook
-Open the Jupyter notebook file (named_entity_recognition.ipynb) in your preferred environment (Jupyter Notebook or Google Colab), and follow the instructions provided to execute the NER analysis.
-4. Results
-After running the notebook, you will see the model's accuracy and loss plots. You can evaluate the model on the test data to see how well it recognizes named entities.
+1. **Clone the Repository**:
+   git clone https://github.com/your_username/Named-Entity-Recognition-LSTM.git
+   cd Named-Entity-Recognition-LSTM
+   
+2. **Install Required Libraries**:
+   Make sure you have Python installed, then install the necessary packages:
+   pip install -r requirements.txt
+   
+3. **Run the Jupyter Notebook**:
+   Open the Jupyter notebook file (named_entity_recognition.ipynb) in your preferred environment (Jupyter Notebook or Google Colab), and follow the instructions provided to 
+   execute the NER analysis.
+   
+4. **Results**:
+   After running the notebook, you will see the model's accuracy and loss plots. You can evaluate the model on the test data to see how well it recognizes named entities.
 
 ## Results
 The model achieves high accuracy in recognizing entities such as persons, organizations, locations, and geopolitical entities.
 Example entities recognized:
-PER (Person)
-ORG (Organization)
-GPE (Geopolitical Entity)
-TIM (Time indicator)
-EVE (Event), etc.
+- PER (Person)
+- ORG (Organization)
+- GPE (Geopolitical Entity)
+- TIM (Time indicator)
+- EVE (Event), etc.
 
 ## Getting Help
 For any questions or issues regarding the project, please open an issue on the repository, and I will be happy to assist. You can also check the TensorFlow and Keras documentation for more information on using deep learning models.
